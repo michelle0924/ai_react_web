@@ -1,0 +1,16 @@
+import { Link, Outlet } from 'react-router-dom';
+
+const Layout = () => {
+  return (
+    <>
+      <header>
+        <nav>
+          <Link to="/">Home</Link>
+        </nav>
+      </header>
+      <Outlet />
+    </>
+  );
+};
+
+export default Layout;
